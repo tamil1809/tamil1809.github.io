@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamilan S - Sr Software Developer & Module Lead</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #2d3748;
+            line-height: 1.6;
+            background-color: #f7fafc;
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .page-container {
+            max-width: 210mm;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+        }
+        
+        .section {
+            margin-bottom: 1.5rem;
+            page-break-inside: avoid;
+        }
+        
+        .timeline-item {
+            border-left: 2px solid #3182ce;
+            padding-left: 1.5rem;
+            position: relative;
+            margin-bottom: 1.5rem;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #3182ce;
+            left: -7px;
+            top: 6px;
+        }
+        
+        .skill-tag {
+            display: inline-block;
+            background: #ebf4ff;
+            color: #2c5282;
+            border-radius: 4px;
+            padding: 0.25rem 0.75rem;
+            margin: 0.25rem;
+            font-size: 0.875rem;
+        }
+        
+        .achievement {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .achievement::before {
+            content: '•';
+            position: absolute;
+            left: 0.5rem;
+            color: #3182ce;
+            font-weight: bold;
+        }
+        
+        .header-line {
+            height: 4px;
+            background: linear-gradient(90deg, #3182ce 0%, #63b3ed 100%);
+            margin: 0.5rem 0 1.5rem 0;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                margin: 0;
+                padding: 0;
+                font-size: 10pt; /* Adjust font size for print */
+            }
+            
+            .page-container {
+                box-shadow: none;
+                padding: 1cm; /* Add some padding for printing */
+                margin: 0;
+                max-width: none;
+                width: 100%;
+            }
+
+            .print-hidden {
+                display: none;
+            }
+            
+            h1 { font-size: 28pt; }
+            h2 { font-size: 16pt; }
+            h3 { font-size: 12pt; }
+
+             /* Ensure long URLs wrap */
+            a {
+                word-break: break-all;
+            }
+        }
+    </style>
+</head>
+<body class="py-8">
+    <div class="page-container">
+        <!-- Header Section -->
+        <header class="section">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+                <div>
+                    <h1 class="text-4xl font-bold text-blue-700">Tamilan S</h1>
+                    <h2 class="text-xl text-gray-600 mt-1">Sr Software Developer / Module Lead</h2>
+                </div>
+                <div class="mt-3 md:mt-0 text-gray-600 text-right">
+                    <p><i class="fas fa-phone mr-2"></i>(+91) 9655304552</p>
+                    <p><i class="fas fa-envelope mr-2"></i>tamils1809@outlook.com</p>
+                    <p><i class="fas fa-map-marker-alt mr-2"></i>Bangalore, Karnataka, India</p>
+                </div>
+            </div>
+            <div class="header-line"></div>
+            <div class="flex flex-wrap justify-between items-center text-gray-700">
+                <div class="w-full md:w-auto mb-2 md:mb-0"><i class="fas fa-briefcase mr-2"></i><strong>Experience:</strong> 8+ years</div>
+                <div class="w-full md:w-auto mb-2 md:mb-0"><i class="fas fa-graduation-cap mr-2"></i><strong>Education:</strong> BE Electronic & Communication</div>
+                <div class="w-full md:w-auto mb-2 md:mb-0"><i class="fas fa-globe mr-2"></i><strong>Language:</strong> English (Medium)</div>
+                <!-- Print Button -->
+                 <div class="w-full md:w-auto mt-2 md:mt-0 print-hidden">
+                    <button onclick="window.print()" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition duration-200">
+                        <i class="fas fa-print mr-2"></i>Print / Save as PDF
+                    </button>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Professional Summary -->
+        <section class="section">
+            <h2 class="text-2xl font-semibold text-blue-700 border-b border-gray-300 pb-1 mb-3">Professional Summary</h2>
+            <p class="mb-4">
+                Senior Software Developer and Module Lead currently at YsecIT Softwares India Pvt Ltd, specializing in high-scale iGaming platforms and transaction-critical systems. Proven experience designing and delivering an iGaming wallet, integrating major gaming providers (EGT Digital, Amusnet), and maintaining high-availability gaming portals such as <a href="https://suribet.sr" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">suribet.sr</a>. Responsible for handling millions of game transactions per day and architecting the backend for live casino studios. Strong background in enterprise architecture, cloud infrastructure, and reliable messaging/data systems for real-time gaming operations.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                <div>
+                    <h3 class="text-lg font-medium text-blue-700 mb-2">Key Achievements</h3>
+                    <ul class="pl-1">
+                        <li class="achievement">Built a production-grade iGaming Wallet used in live operations</li>
+                        <li class="achievement">Integrated top providers such as EGT Digital and Amusnet</li>
+                        <li class="achievement">Maintainer of suribet.sr, ensuring high availability and transaction throughput</li>
+                        <li class="achievement">Designed and implemented live casino studio backend for real-time play</li>
+                        <li class="achievement">Handled scale of millions of game transactions daily with low-latency systems</li>
+                        <li class="achievement">Led cross-functional teams to deliver resilient gaming services</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-medium text-blue-700 mb-2">Core Competencies</h3>
+                    <ul class="pl-1">
+                        <li class="achievement">iGaming Architecture & Wallet Systems</li>
+                        <li class="achievement">High-throughput Transaction Processing</li>
+                        <li class="achievement">Cloud Infrastructure & DevOps</li>
+                        <li class="achievement">Real-time Systems & Messaging (RabbitMQ)</li>
+                        <li class="achievement">Data Modeling for High Availability (Couchbase, Redis)</li>
+                        <li class="achievement">Team Leadership & Project Delivery</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Technical Skills -->
+        <section class="section">
+            <h2 class="text-2xl font-semibold text-blue-700 border-b border-gray-300 pb-1 mb-3">Technical Skills</h2>
+            <div class="flex flex-wrap">
+                <div class="skill-tag"><i class="fas fa-cloud mr-1"></i>AWS</div>
+                <div class="skill-tag"><i class="fas fa-cloud mr-1"></i>Azure</div>
+                <div class="skill-tag"><i class="fas fa-cloud mr-1"></i>Google Cloud</div>
+                <div class="skill-tag"><i class="fas fa-code mr-1"></i>C#</div>
+                <div class="skill-tag"><i class="fas fa-code mr-1"></i>JavaScript</div>
+                <div class="skill-tag"><i class="fas fa-code mr-1"></i>TypeScript</div>
+                <div class="skill-tag"><i class="fas fa-brain mr-1"></i>AI / Machine Learning</div> 
+                <div class="skill-tag"><i class="fas fa-database mr-1"></i>MSSQL</div>
+                <div class="skill-tag"><i class="fas fa-database mr-1"></i>NoSQL</div>
+                <div class="skill-tag"><i class="fas fa-database mr-1"></i>Couchbase</div>
+                <div class="skill-tag"><i class="fas fa-database mr-1"></i>Redis</div>
+                <div class="skill-tag"><i class="fas fa-exchange-alt mr-1"></i>RabbitMQ</div>
+                <div class="skill-tag"><i class="fas fa-sitemap mr-1"></i>Solutions Architecture</div>
+                <div class="skill-tag"><i class="fas fa-sitemap mr-1"></i>Software Architecture</div>
+                <div class="skill-tag"><i class="fas fa-chart-bar mr-1"></i>Data Analysis</div>
+                <div class="skill-tag"><i class="fas fa-chart-line mr-1"></i>Data Modeling</div>
+                <div class="skill-tag"><i class="fas fa-tasks mr-1"></i>Project Management</div>
+                <div class="skill-tag"><i class="fas fa-sync-alt mr-1"></i>Agile</div>
+                <div class="skill-tag"><i class="fab fa-github mr-1"></i>Open Source Contribution</div>
+            </div>
+        </section>
+        
+        <!-- Professional Experience -->
+        <section class="section">
+            <h2 class="text-2xl font-semibold text-blue-700 border-b border-gray-300 pb-1 mb-4">Professional Experience</h2>
+            
+            <!-- YsecIT -->
+            <div class="timeline-item">
+                <div class="flex flex-col md:flex-row justify-between">
+                    <h3 class="text-xl font-semibold">Sr Software Developer / Module Lead</h3>
+                    <p class="font-medium text-gray-600">Present</p>
+                </div>
+                <p class="text-blue-600 italic mb-2">YsecIT Softwares India Pvt Ltd | Bangalore, India</p>
+                <ul class="pl-1 mt-2">
+                    <li class="achievement">Built and maintain an iGaming Wallet used in production environments</li>
+                    <li class="achievement">Integrated with top gaming providers including EGT Digital and Amusnet</li>
+                    <li class="achievement">Maintainer of suribet.sr, ensuring high availability and transaction throughput</li>
+                    <li class="achievement">Handle millions of game transactions every day with robust, low-latency systems</li>
+                    <li class="achievement">Designed and implemented backend for live casino studio and streaming integrations</li>
+                    <li class="achievement">Implemented messaging and caching using RabbitMQ and Redis for real-time workflows</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="flex flex-col md:flex-row justify-between">
+                    <h3 class="text-xl font-semibold">Sr Software Engineer</h3>
+                    <p class="font-medium text-gray-600">Aug 2021 – 2024</p>
+                    </div>
+                    <p class="text-blue-600 italic mb-2">YsecIT Software India Pvt Ltd</p>
+                    <ul class="pl-1 mt-2">
+                    <li class="achievement">Introduced AI and ML based Game Recommendation engine. </li>
+                    <li class="achievement">Developed and implemented Seamless game integration system</li>
+                    <li class="achievement">Developed AndarBahar Game Engine</li>
+                    <li class="achievement">Developed and Implemeneted websocket based realtime gameserver</li>
+                </ul>
+            </div>
+
+            <!-- Software Engineer -->
+            <div class="timeline-item">
+                <div class="flex flex-col md:flex-row justify-between">
+                    <h3 class="text-xl font-semibold">Software Engineer</h3>
+                    <p class="font-medium text-gray-600">Aug 2018 – 2021</p>
+                </div>
+                <p class="text-blue-600 italic mb-2">YsecIT Software India Pvt Ltd</p>
+                <ul class="pl-1 mt-2">
+                    <li class="achievement">Optimized client application loading speed by 300%</li>
+                    <li class="achievement">Created multiple services that became part of the common API</li>
+                    <li class="achievement">Developed iGaming Wallet System backend solutions</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Highlighted Project -->
+         <section class="section">
+             <h2 class="text-2xl font-semibold text-blue-700 border-b border-gray-300 pb-1 mb-3">Highlighted Open Source Project</h2>
+             <div class="mb-4">
+                 <h3 class="text-xl font-semibold text-blue-600">Notepad - Modern windows notepad</h3>
+                 <p class="mt-1 text-gray-700">
+                     The Windows Notepad app is a modern Windows app written in C++/WinRT that avaliable in Windows store. The app provides modern text input support like emojis
+                 </p>
+                 <ul class="pl-1 mt-2">
+                    <li class="achievement">Modern input box which support emojis and much more.</li>
+                     <li class="achievement">WinRT/Cpp help application to run application faster.</li>
+                     <li class="achievement">
+                        <strong>Project Repository:</strong> 
+                        <a href="https://github.com/SystemNotepad/Notepad" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-medium">github.com/SystemNotepad/Notepad</a>
+                     </li>
+                 </ul>
+             </div>
+         </section>
+
+        
+        <!-- Footer Section -->
+        <footer class="mt-8 pt-4 border-t border-gray-300 text-center text-gray-600 text-sm">
+            <p>This resume was professionally designed to highlight Tamilan S's experience in iGaming, Solutions Architecture, and high-scale transaction systems.</p>
+        </footer>
+    </div>
+
+    <!-- Simple script for Print functionality -->
+    <!-- The window.print() function is now called directly from the button's onclick attribute -->
+
+</body>
+</html>
